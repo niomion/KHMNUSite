@@ -11,6 +11,23 @@ body {
     text-align: center;
   }
 
+a.button:link, .button:visited {
+  text-decoration: none;
+  border: 10px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  margin-left: 50px;
+  padding: 5px;
+  outline: 1px solid black;
+}
+
+a.button:hover {
+  background-color: rgb(119, 119, 119);
+}
+
+a.button:active {
+  background-color: rgb(255, 0, 0);
+}
 .logo {
   letter-spacing: 10px;
   word-spacing: 6px;
@@ -35,8 +52,15 @@ body {
   background-color: rgba(247, 0, 255, 0.459);
 }
 
+nav {
+  border: 5px ridge palevioletred;
+  padding: 10px;
+  background-color: rgb(255, 192, 252);
+}
+
 header {
     border: 5px ridge palevioletred;
+    height: 100px;
     background-color: rgb(255, 192, 252);
 }
 
